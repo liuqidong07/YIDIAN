@@ -98,7 +98,7 @@ class CINLayer(nn.Module):
     def __init__(self, in_channels, out_channels):
         '''
         in_channel: m * hk, unfold the feature map to a vector
-        out_channel: hk+1, the output size of din
+        out_channel: hk+1, the output size of cin
         '''
         super(CINLayer, self).__init__()
 
