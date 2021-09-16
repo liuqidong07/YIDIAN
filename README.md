@@ -1,4 +1,6 @@
-# 一点资讯CTR--xDeepFM & ESMM
+# [一点资讯CTR大赛](https://tech.yidianzixun.com/competition/#/)第三名方案--xDeepFM & ESMM
+
+八月无烦恼队--[初赛第三名(排行榜)](https://tech.yidianzixun.com/competition/#/ranking)
 
 ## 思路
 该方案以xDeepFM模型基础，构建多任务模型。利用训练数据中的观看时长和点击数据作为多任务的目标。由于观看时长是在点击之后才会产生，因此两者的关系类似于点击率和转化率的关系。故这里使用ESMM多任务模型分别预测点击率和点击后观看时长，利用观看时长任务来辅助点击任务。最终预测使用只使用点击任务的输出。
