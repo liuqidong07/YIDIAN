@@ -1,4 +1,4 @@
-# [一点资讯CTR大赛](https://tech.yidianzixun.com/competition/#/)第三名方案--xDeepFM & ESMM
+# [一点资讯CTR大赛](https://tech.yidianzixun.com/competition/#/)第三名方案分享--xDeepFM & ESMM
 
 八月无烦恼队--[初赛第三名(排行榜)](https://tech.yidianzixun.com/competition/#/ranking)
 
